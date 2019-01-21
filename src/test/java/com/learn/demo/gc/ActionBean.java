@@ -21,10 +21,11 @@ public class ActionBean {
         this.date = new Date();
     }
 
-    //销毁
+    //销毁 优先级队列 PriorityQueue
     public void cleanup(){
         this.msg = null;
         this.date = null;
+
         System.out.println("您销毁了msg " + this.msg +"和date " + this.date);
     }
 
