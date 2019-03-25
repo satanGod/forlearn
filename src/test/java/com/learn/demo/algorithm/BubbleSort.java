@@ -29,6 +29,7 @@ public class BubbleSort {
 
     /**
      * 冒泡排序，大O表示法时间复杂度为N²，计算次数为n*n/2次。
+     * 1秒=1000毫秒=1000,000微妙=1000,000,000纳秒
      */
     public void bubbleSort(){
         for(int out = nElems - 1 ; out > 1 ;out--){
